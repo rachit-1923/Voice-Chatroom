@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+        </style>
+</head>
+<body>
+    
+    <nav>
+        <img src="icon.png" alt="logo" id="logo"> 
+    </nav>
+    <div class="online">Users Online: </div>
+    <div class="container">
+        <div class="message mid">Welcome to the Room</div>
+        
+    </div>
+    <div class="send">
+        <form action="#" id="send-container" autocomplete="off" >
+            <input type="text" name="msg" id="messageInput">
+            <button class="btn" type="submit">Send</button> 
+        </form>
+        <button class="btn" id="Rec">Rec</button> 
+    </div>
+    
+    
+    <div class="box">
+        <div class="controllers"></div>
+        <div class="display"></div>
+    </div>
+    <script defer src="client.js"></script>
+    <!-- <script defer src="audio.js"></script> -->
+</body>
+</html>

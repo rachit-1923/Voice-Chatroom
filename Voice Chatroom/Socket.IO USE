@@ -1,0 +1,3 @@
+hamare server or user ke beech http module ka use karke one way connection hi banta hai as we have seen.
+matlab ki website tabhi kuch show karti hai jab user request bhejta hai
+we can use socketIO where server and client remain connected and server can send data without request also

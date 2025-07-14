@@ -1,0 +1,121 @@
+body{
+    
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rubik 80s Fade', cursive;
+    text-shadow: 1px 2px black;
+    background:rgba(134, 24, 134, 0.37);
+     
+}
+#logo{
+    display: block;
+    margin: auto;
+    width:80px;
+}
+
+.container{
+    background:white;
+    border: 1px solid black;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    align-items: flex-end;
+    overflow-y:scroll;
+    border-radius: 15px;
+    padding: 5px;
+    width:70%;
+    margin: auto;
+
+
+
+}
+.online{
+    display: flex;
+    font-family: Verdana;
+    text-shadow: none;
+    margin:auto;
+    padding: 5px;
+    margin-bottom:2px;
+    align-items: center;
+}
+
+.message{
+    /* border: 1px dotted red; */
+    margin: 12px 12px;
+    width:25%;
+    padding:3px 11px;
+    
+
+}
+.left{
+    align-self: flex-start;
+    background-color:#A734CC;
+    border-radius: 1px 12px 12px 12px;
+
+}
+
+.right{
+
+    background-color:#E1B4EB;
+    border:1px solid #A734CC;
+    border-radius: 12px 1px 12px 12px;
+    
+}
+
+.margin{
+    margin:3px 0px
+}
+
+.mid{
+    align-self: center;
+    text-align: center;
+    background-color:#c6b4eb;
+    border:1px solid #A734CC;
+    border-radius: 1px 1px 12px 12px;
+
+}
+.send{
+    margin: auto;
+
+}
+
+#send-container{
+
+    /* display: block; */
+
+
+    margin: 15px ;
+    
+}
+#messageInput{
+    
+    border: 1px solid black;
+    width: 50vw;
+    height: 60px;
+    padding: 0px 12px;
+    border-radius: 15px;
+}
+
+.btn{
+    border: 2px solid #A734CC;
+    /* padding: 6px; */
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+
+    background: #E1B4EB;
+    color: #A734CC;
+
+    font-weight: bold;
+    
+}
+
+.highlight{
+    /* border: 1px solid rgb(255, 132, 123); */
+    background-color: #6E02F9;
+    color: white;
+    border-radius: 8px;
+    padding: 2px 6px;
+    margin: 0px 2px;
+}
